@@ -3,8 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : METTETAL
+- PRÉNOM : Charlotte
+- GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/mX1oFxABSFYWrzGSylp5fi/Mettetal-Charlotte-MMIC2_Projet-individuel--copie-?node-id=3702-151&t=YMYSzKbPENVp6Zja-1
+

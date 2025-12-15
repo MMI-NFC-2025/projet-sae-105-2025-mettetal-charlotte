@@ -24,7 +24,13 @@ h1 {
 h2{
     font-weight: 600;
     letter-spacing: -0.05rem;
-    color:var(--rouge);
+    color:var(--rouge-);
     font-size: var(--texte-h2);
     font-family: IBM Plex serif;
+}
+
+.u-list-unstyled{
+    list-style: none;
+    padding: 2;
+    margin: 0;
 }

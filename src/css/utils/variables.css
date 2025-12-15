@@ -1,0 +1,39 @@
+:root{
+        /* color */
+        --blanc: #ffffff;
+        --gris: #696969;
+        --gris-marron: #9c9a84;
+        --jaune-: #efdf2e;
+        --jaune-foncé-: #938808;
+        --jaune-or-: #d0c010;
+        --noir-: #000000;
+        --rose-: #f5abd1;
+        --rose-clair: #ffe4f2;
+        --rose-clair-: #ffd0e8;
+        --rose-orangé: #ffe9e3;
+        --rouge-: #ff0004;
+        --gris: #9c9a84;
+
+        /* number */
+        --texte-h3: 0.875rem;
+        --texte-texte-4: 0.875rem;
+        --texte-texte-2: 1rem;
+        --texte-texte-1: 1.25rem;
+        --texte-texte-3: 1.25rem;
+        --texte-h2: 2rem;
+        --texte-h1: 3rem;
+        /* string */
+        --fonts-font-entrée: Abel;
+        --fonts-font-exerbe: Times New Roman;
+        --fonts-font-texte: Tahoma;
+        --fonts-font-titre: IBM Plex Serif;
+
+        /* number */
+        --texte-1: 0.125rem;
+        --texte-2: 0.25rem;
+        --texte-3: 0.375rem;
+        --texte-4: 0.5rem;
+        --h1: 0.75rem;
+        --h2: 1rem;
+        --h3: 1.25rem;
+    }

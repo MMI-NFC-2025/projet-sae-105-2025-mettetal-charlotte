@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--fonts-font-texte);
+    font-size: var(--text--h1);
+    line-height: 1.6;
+    background-color: var(--rose-orangé);
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    color: var(--noir);
+    font-size: var(--texte-h1);
+    font-family: IBM Plex Serif
+}
+
+h2{
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    color:var(--rouge);
+    font-size: var(--texte-h2);
+    font-family: IBM Plex serif;
+}

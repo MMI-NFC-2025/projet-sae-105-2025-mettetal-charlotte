@@ -1,3 +1,16 @@
-.footer{
+.footer {
     background: var(--gris);
+    position: absolute;
+    left: 0;
+}
+
+.footer__nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--texte-1);
+    margin: auto;
+}
+
+.footer__item {
+    margin-bottom: var(--texte-3);
 }

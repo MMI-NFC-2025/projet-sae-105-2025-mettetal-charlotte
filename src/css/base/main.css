@@ -29,6 +29,15 @@ h2{
     font-family: IBM Plex serif;
 }
 
+.type-blog{
+    font-size: var(--texte-h3);
+    font-family: Abel;
+}
+
+.exerbe {
+    color: var(--jaune-foncé-);
+    font-family: Times New Roman;
+}
 .u-list-unstyled{
     list-style: none;
     padding: 2;

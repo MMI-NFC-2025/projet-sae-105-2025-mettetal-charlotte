@@ -1,7 +1,14 @@
-.conteneur{
-    overflow: scroll;
-    display: flex;
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
-    scroll-snap-align: center;
+img {
+    max-width: 100%;
+    height: auto;
+    background-size: contain;
 }
+
+.carousel__controls{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+

@@ -13,3 +13,5 @@
 @import "layout/footer.css"; 
 
 /*Components*/
+@import "components/carousel.css";
+

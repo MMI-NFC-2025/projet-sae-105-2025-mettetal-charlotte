@@ -38,6 +38,17 @@ h2{
     color: var(--jaune-foncé-);
     font-family: Times New Roman;
 }
+
+.sous-titre{
+    color: var(--jaune-foncé-);
+    font-family: Tahoma;
+}
+
+.définition {
+    color: var(--jaune-or-);
+    font-family: Tahoma;
+}
+
 .u-list-unstyled{
     list-style: none;
     padding: 2;

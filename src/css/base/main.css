@@ -55,10 +55,129 @@ h2{
     justify-content: center;
 }
 
-.container__point{
+.container__point-1{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 74px;
+}
+
+.container__point-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-15 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-16 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+.container__point-17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+}
+
+.container__point-18 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
 }
 
 .texte__frise{

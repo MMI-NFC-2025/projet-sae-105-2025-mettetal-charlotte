@@ -65,6 +65,18 @@ h2{
     width: 145px;
     height: 64px;
 }
+
+button {
+    display: flex;
+    appearance: none;
+    border: none;
+    background: var(--jaune-or-);
+    outline: none;
+    border-radius: 18px;
+    padding: 10;
+    cursor: pointer;
+}
+
 .u-list-unstyled{
     list-style: none;
     padding: 2;

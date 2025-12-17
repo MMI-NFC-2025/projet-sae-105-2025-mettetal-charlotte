@@ -8,3 +8,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: var(--texte-1);
 }
+
+.footer__link{
+    color: var(--noir-);
+}

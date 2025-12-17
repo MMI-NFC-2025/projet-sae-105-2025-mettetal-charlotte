@@ -49,140 +49,127 @@ h2{
     font-family: Tahoma;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.frise-chronologique {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.container__point-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+/* Ligne verticale */
+.frise-chronologique::before {
+    content: "";
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: calc(100% - 320px);
+    background-color: #000;
+}
+
+/* Texte des événements */
+.texte__frise {
+    width: 40%;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 32px 0;
+}
+
+/* Texte à gauche */
+.texte__frise:nth-of-type(odd) {
+    text-align: right;
+    margin-right: 55%;
+}
+
+/* Texte à droite */
+.texte__frise:nth-of-type(even) {
+    text-align: left;
+    margin-left: 55%;
+}
+
+/* Points */
+[class^="container__point"] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+[class^="container__point"] img {
+    width: 12px;
+    height: 12px;
+}
+
+.container__point-1 {
+    top: 300px;
 }
 
 .container__point-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 380px;
 }
 
 .container__point-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 460px;
 }
 
 .container__point-4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 540px;
 }
 
 .container__point-5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 620px;
 }
 
 .container__point-6 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 700px;
 }
 
 .container__point-7 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 780px;
 }
 
 .container__point-8 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 860px;
 }
 
 .container__point-9 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 940px;
 }
 
 .container__point-10 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1020px;
 }
 
 .container__point-11 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1100px;
 }
 
 .container__point-12 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1180px;
 }
 
 .container__point-13 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1260px;
 }
 
 .container__point-14 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1340px;
 }
 
 .container__point-15 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1420px;
 }
 
 .container__point-16 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1500px;
 }
+
 .container__point-17 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
+    top: 1580px;
 }
 
 .container__point-18 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 74px;
-}
-
-.texte__frise{
-    width: 145px;
-    height: 64px;
+    top: 1660px;
 }
 
 button {

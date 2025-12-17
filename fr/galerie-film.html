@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
     <link rel="stylesheet" href="/src/css/styles.css" />
-    <script type="module" src="src/js/script.js"></script>
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body>
@@ -70,41 +70,45 @@
             <h2>Découvrez d'autres films en lien avec l'effet Matilda</h2>
             <div class="carousel" aria-label="Galerie de film">
                 <div class="carousel__controls">
-                    <button
-                    class="carousel__button carousel__button--prev"
-                    aria-label="Image précédente">
-                    <img src="/assets/Icons/fleche-arrière.svg" alt="" loading="lazy"/>
-                </button>
-                <button class="carousel__button carousel__button--next"
-                aria-label="Image suivante">
-                <img src="/assets/Icons/fleche-avant.svg" alt="" loading="lazy":>
-                </button>
+                    <button class="carousel__button carousel__button--prev" aria-label="Image précédente">
+                        <img src="/assets/Icons/fleche-arrière.svg" alt="" loading="lazy" />
+                    </button>
+                    <button class="carousel__button carousel__button--next" aria-label="Image suivante">
+                        <img src="/assets/Icons/fleche-avant.svg" alt="" loading="lazy" />
+                    </button>
                 </div>
                 <div class="carousel__track" id="track">
-                    <article class="carousel__slide card-image">
-                        <img src="/assets/img/film1.webp" alt="Affiche du film Les Figures de l'ombre" loading="lazy"/>
-                        <p class="card-image__texte"><em>Les Figures de l'ombre</em>, film réalisé par Theodore Melfi en 2016</p>
+                    <article class="carousel__slide card-image" role="region" aria-live="polite">
+                        <img src="/assets/img/film1.webp" alt="Affiche du film Les Figures de l'ombre" loading="lazy" />
+                        <p class="card-image__texte"><em>Les Figures de l'ombre</em>, film réalisé par Theodore Melfi en
+                            2016</p>
                     </article>
-                    <article class="carousel__slide card-image">
-                        <img src="/assets/img/atomic-power-mot-ad1.webp" alt="Affiche du documentaire Atomic Power" loading="lazy">
+                    <article class="carousel__slide card-image" role="region" aria-live="polite">
+                        <img src="/assets/img/atomic-power-mot-ad1.webp" alt="Affiche du documentaire Atomic Power"
+                            loading="lazy">
                         <p><em>Atomic power</em>, documentaire réalisé par The March of Time, en 1946</p>
                     </article>
-                    <article class="carousel__slide card-image">
+                    <article class="carousel__slide card-image" role="region" aria-live="polite">
                         <img src="/assets/img/oppenheimer.webp" alt="Affiche du film Oppenheimer" loading="lazy">
-                        <p class="card-image__texte"><em>Oppenheimer</em>, film réalisé par Christopher Nolan, en 2023</p>
+                        <p class="card-image__texte"><em>Oppenheimer</em>, film réalisé par Christopher Nolan, en 2023
+                        </p>
                     </article>
-                    <article class="carousel__slide card-image">
+                    <article class="carousel__slide card-image" role="region" aria-live="polite">
                         <img src="/assets/img/radiactive.webp" alt="Affiche du film Radioactive" loading="lazy">
                         <p class="card-image__texte"><em>Radioactive</em>, film réalisé par Marjane Satrapi en 2019</p>
                     </article>
-                    <article class="carousel__slide card-image">
-                        <img src="/assets/img/pictureofscientist1.webp" alt="Affiche du documentaire Picture a scientist" loading="lazy">
-                        <p class="card-image__texte"><em>Picture a scientist</em>, documentaire réalisé par Sharon Shattuck et Ian Cheney en 2020</p>
+                    <article class="carousel__slide card-image" role="region" aria-live="polite">
+                        <img src="/assets/img/pictureofscientist1.webp"
+                            alt="Affiche du documentaire Picture a scientist" loading="lazy">
+                        <p class="card-image__texte"><em>Picture a scientist</em>, documentaire réalisé par Sharon
+                            Shattuck et Ian Cheney en 2020</p>
                     </article>
-                    <article class="carousel__slide card-image">
-                        <img src="/assets/img/lesfabuleuses1.webp" alt="Affiche du documentaire Les Fabuleuses" loading="lazy">
-                        <p class="card-image__texte"><em>Les Fabuleuses</em>, documentaire réalisé en collaboration avec le théâtre de la Reine blanche et le ministère de
-                        l'Enseignement en 2025</p>
+                    <article class="carousel__slide card-image" role="region" aria-live="polite">
+                        <img src="/assets/img/lesfabuleuses1.webp" alt="Affiche du documentaire Les Fabuleuses"
+                            loading="lazy">
+                        <p class="card-image__texte"><em>Les Fabuleuses</em>, documentaire réalisé en collaboration avec
+                            le théâtre de la Reine blanche et le ministère de
+                            l'Enseignement en 2025</p>
                     </article>
                 </div>
             </div>
@@ -135,4 +139,5 @@
                 Montbéliard.</a></p>
     </footer>
 </body>
+
 </html>

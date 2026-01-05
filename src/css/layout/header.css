@@ -1,25 +1,32 @@
+/* HEADER FIXE TOUJOURS VISIBLE */
 .header {
     position: fixed;
-    left: 0;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     height: 80px;
     background-color: var(--gris);
+    /* couleur visible */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 30;
+    padding: 0 24px;
+    z-index: 1000;
+    /* le plus haut */
 }
 
+/* titre centré */
 .header__link {
-    display: block;
-    z-index: 30;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
 }
 
 .header__logo {
     width: 45px;
     height: auto;
-    display: block;
 }
 
 .header__link p {
@@ -28,37 +35,14 @@
     font-weight: 700;
     font-size: 20px;
     color: #000;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
-/* Empêcher le titre de recouvrir les éléments interactifs */
-.header__link {
-    max-width: 60%;
-    text-align: center;
-    z-index: 40;
-}
-
-.header__logo,
-.header__traduction,
-.header__menu-btn {
-    position: relative;
-    z-index: 40;
-}
-
-/* Placer l'icône de traduction avant le menu (à droite du logo) */
+/* icône langue + bouton menu */
 .header__traduction {
     width: 28px;
     height: auto;
     margin: 0 12px;
     cursor: pointer;
-}
-
-.header__traduction {
-    width: 28px;
-    height: auto;
 }
 
 .header__menu-btn {
@@ -69,7 +53,5 @@
     justify-content: center;
     width: 30px;
     height: 30px;
-    margin-left: auto;
     cursor: pointer;
 }
-

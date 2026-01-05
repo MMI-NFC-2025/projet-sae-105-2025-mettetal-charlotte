@@ -49,6 +49,11 @@ h2{
     font-family: Tahoma;
 }
 
+.lien_glossaire {
+    text-decoration: none;
+    color: var(--jaune-or-);
+}
+
 .frise-chronologique {
     position: relative;
     max-width: 900px;

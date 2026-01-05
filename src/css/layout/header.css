@@ -73,7 +73,3 @@
     cursor: pointer;
 }
 
-/* Décaler le contenu principal pour qu'il ne soit pas caché par le header */
-main {
-    padding-top: calc(80px + 16px);
-}

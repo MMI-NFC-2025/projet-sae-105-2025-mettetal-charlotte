@@ -13,18 +13,22 @@ body{
     background-color: var(--rose-orangé);
 }
 
+main {
+    padding-top: 40px;
+}
+
 h1 {
     font-weight: 600;
     letter-spacing: -0.05rem;
     color: var(--noir);
     font-size: var(--texte-h1);
-    font-family: IBM Plex Serif
+    font-family: IBM Plex Serif;
 }
 
 h2{
     font-weight: 600;
     letter-spacing: -0.05rem;
-    color:var(--rouge-);
+    color: var(--rouge-);
     font-size: var(--texte-h2);
     font-family: IBM Plex serif;
 }

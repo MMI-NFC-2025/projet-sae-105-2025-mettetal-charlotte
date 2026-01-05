@@ -183,6 +183,7 @@ button {
     border-radius: 18px;
     padding: 10;
     cursor: pointer;
+    align-items: center;
 }
 
 .u-list-unstyled{

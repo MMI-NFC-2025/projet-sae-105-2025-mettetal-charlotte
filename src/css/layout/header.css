@@ -3,6 +3,7 @@
     left: 0;
     top: 0;
     width: 100%;
+    height: 80px;
     background-color: var(--gris);
     display: flex;
     align-items: center;
@@ -47,16 +48,12 @@
     z-index: 40;
 }
 
-/* Pousser le bouton menu à l'extrémité droite */
-.header__menu-btn {
-    margin-left: auto;
-}
-
 /* Placer l'icône de traduction avant le menu (à droite du logo) */
 .header__traduction {
     width: 28px;
     height: auto;
-    margin-left: 12px;
+    margin: 0 12px;
+    cursor: pointer;
 }
 
 .header__traduction {
@@ -72,9 +69,11 @@
     justify-content: center;
     width: 30px;
     height: 30px;
+     margin-left: auto;
     cursor: pointer;
 }
 
-
-
-
+/* Décaler le contenu principal pour qu'il ne soit pas caché par le header */
+main {
+    padding-top: calc(80px + 16px);
+}

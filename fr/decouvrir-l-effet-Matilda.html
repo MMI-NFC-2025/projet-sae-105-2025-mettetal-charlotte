@@ -21,8 +21,8 @@
         <a class="header__link" href="/">
             <img class="header__logo" src="/assets/Icons/logo.svg" alt="Logo Lise Meitner & l'effet Matilda" />
             <p>Lise Meitner & l'effet Matilda</p>
-            <img class="header__traduction" src="/assets/Icons/icônedetraduction.svg" />
         </a>
+        <img class="header__traduction" src="/assets/Icons/icônedetraduction.svg" alt="Traduction" />
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar menu-btn__bar--top" aria-hidden="true"></span>
             <span class="menu-btn__bar menu-btn__bar--middle" aria-hidden="true"></span>
@@ -31,7 +31,7 @@
         <nav class="header__menu menu" id="mainNav" hidden>
             <ul class="menu__list u-list-unstyled">
                 <li class="menu__item">
-                    <a class="menu__link" href="/">Acceuil</a>
+                    <a class="menu__link" href="/">Accueil</a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="fr/decouvrir-l-effet-Matilda.html">Découvrir l'effet Matilda</a>
@@ -71,7 +71,7 @@
             <h2>Connaissez-vous l'effet Matilda ?</h2>
             <article class="article__effet">
                 <p>L’effet Matilda est mis en lumière en 1993 par l’historienne des sciences <a class="article__link" href="https://fr.wikipedia.org/wiki/Margaret_W._Rossite">Margaret Rossiter</a>. L'effet Matilda est la
-                minimisation du rôle des femmes dans la recherche scientifique aux profit des hommes, elles profitent donc moins des
+                minimisation du rôle des femmes dans la recherche scientifique au profit des hommes, elles profitent donc moins des
                 retombées de leurs recherches. Le nom Matilda est un hommage à <a class="article__link" href="https://fr.wikipedia.org/wiki/Matilda_Joslyn_Gage">Matilda Joslyn Gage</a>, une militante américaine qui a
                 dénoncé, à la fin du XIXème siècle, l'invisibilisation des femmes de sciences.</p>
                 <img src="/assets/img/margaretrossiter1.webp"alt="Photo de Margaret Rossiter souriante" loading="lazy"><p>Margaret Rossiter</p>
@@ -84,28 +84,38 @@
         </article>
     </main>
     <footer class="footer">
-        <nav class="footer__nav">
-            <ul class="footer__list u-list-unstyled">
+        <nav class="footer__nav footer__nav--left">
+            <ul class="footer__col-left u-list-unstyled">
                 <li class="footer__item">
-                    <a class="footer__link" href="/a-propos.html">À propos</a>
+                    <a class="footer__link" href="fr/a-propos.html">À propos</a>
                 </li>
                 <li class="footer__item">
-                    <a class="footer__link" href="/contact.html">Nous contacter</a>
+                    <a class="footer__link" href="/fr/contact.html">Nous contacter</a>
                 </li>
                 <li class="footer__item">
-                    <a class="footer__link" href="/autres-projets.html">Autres projets</a>
+                    <a class="footer__link" href="fr/autre-projets.html">Autres projets</a>
                 </li>
             </ul>
         </nav>
-        <p class="footer__texte">Charlotte Mettetal MMI-C2</p>
-        <p>
-            <a class="footer__mail"
-                href="mailto:charlotte.mettetal@edu.univ-fcomte.fr">charlotte.mettetal@edu.univ-fcomte.fr</a>
-        </p>
-        <p class="footer__texte">Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département <a
-                class="footer__link"
-                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMI de
-                Montbéliard.</a></p>
+        <nav class="footer__nav footer__nav--right">
+            <ul class="footer__col-right u-list-unstyled">
+                <li class="footer__item">
+                    <p class="footer__texte">Charlotte Mettetal MMI-C2</p>
+                </li>
+                <li class="footer__item">
+                    <p>
+                        <a class="footer__mail"
+                            href="mailto:charlotte.mettetal@edu.univ-fcomte.fr">charlotte.mettetal@edu.univ-fcomte.fr</a>
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <p class="footer__texte">Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au
+                        département <a class="footer__link"
+                            href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">MMI
+                            de Montbéliard.</a></p>
+                </li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>

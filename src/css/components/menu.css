@@ -18,44 +18,46 @@
     position: fixed;
     inset: 0;
     z-index: -1;
-    background-color: var(--bleu-clair);
+    background-color: var(--rose-orangé);
 }
 
 .menu__list {
     position: center;
-    z-index: 3;
-    margin-top: 6rem;
-}
-
-.menu__item {
-    margin-bottom: var(--space-8px);
+    z-index: 5;
+    margin-top: 5rem;
 }
 
 .menu-btn {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: transparent !important;
-    border-radius: 0 !important;
+    border: none;
 }
 
-.menu-btn_bar {
-    background: black;
-    height: 2px;
-    width: 100%;
+/* Trois barres horizontales du bouton menu */
+.menu-btn__bar {
     position: absolute;
-    border-radius: 2px;
-    left: 0;
-    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    z-index: 1;
 }
 
-.menu-btn_bar--top {
-    top: 6px;
+.menu-btn__bar--top {
+    top: 18px;
 }
 
-.menu-btn_bar--bottom {
-    bottom: 6px;
+.menu-btn__bar--middle {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-btn__bar--bottom {
+    bottom: 18px;
 }

@@ -1,4 +1,80 @@
 .header {
-    background: var(--gris);
-    width: 393px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: var(--gris);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 30;
 }
+
+.header__link {
+    display: block;
+    z-index: 30;
+}
+
+.header__logo {
+    width: 45px;
+    height: auto;
+    display: block;
+}
+
+.header__link p {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Empêcher le titre de recouvrir les éléments interactifs */
+.header__link {
+    max-width: 60%;
+    text-align: center;
+    z-index: 40;
+}
+
+.header__logo,
+.header__traduction,
+.header__menu-btn {
+    position: relative;
+    z-index: 40;
+}
+
+/* Pousser le bouton menu à l'extrémité droite */
+.header__menu-btn {
+    margin-left: auto;
+}
+
+/* Placer l'icône de traduction avant le menu (à droite du logo) */
+.header__traduction {
+    width: 28px;
+    height: auto;
+    margin-left: 12px;
+}
+
+.header__traduction {
+    width: 28px;
+    height: auto;
+}
+
+.header__menu-btn {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+

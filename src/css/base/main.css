@@ -200,7 +200,12 @@ button {
     border-radius: 18px;
     padding: 10;
     cursor: pointer;
+}
+
+.button__container {
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .u-list-unstyled{

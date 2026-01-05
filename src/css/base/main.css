@@ -20,6 +20,7 @@ main {
 h1 {
     font-weight: 600;
     letter-spacing: -0.05rem;
+    text-align: center;
     color: var(--noir);
     font-size: var(--texte-h1);
     font-family: IBM Plex Serif;
@@ -28,6 +29,7 @@ h1 {
 h2{
     font-weight: 600;
     letter-spacing: -0.05rem;
+    text-align: center;
     color: var(--rouge-);
     font-size: var(--texte-h2);
     font-family: IBM Plex serif;
@@ -43,8 +45,9 @@ h2{
     font-family: Times New Roman;
 }
 
-.sous-titre{
-    color: var(--jaune-foncé-);
+.sous-titre {
+    text-align: center;
+    color: var(--jaune-or-);
     font-family: Tahoma;
 }
 

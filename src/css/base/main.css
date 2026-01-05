@@ -174,6 +174,8 @@ h2{
 
 button {
     display: flex;
+    width: 40%;
+    height: 100%;
     appearance: none;
     border: none;
     background: var(--jaune-or-);

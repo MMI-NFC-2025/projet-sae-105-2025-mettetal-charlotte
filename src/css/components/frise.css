@@ -45,22 +45,26 @@
     margin-left: 55%;
 }
 
-/* point sur la ligne */
+/* point commun à tous les événements */
 .texte__frise::before {
     content: "";
     position: absolute;
     top: 0.7em;
-    /* ajuste pour aligner avec la date */
+    /* ajuste verticalement si besoin */
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #ffcf00;
-    left: 100%;
-    transform: translateX(50%);
 }
 
-/* quand le texte est à droite, on inverse le côté du point */
+/* événements à gauche de la ligne */
+.texte__frise:nth-of-type(odd)::before {
+    right: -44px;
+    /* vers la ligne */
+}
+
+/* événements à droite de la ligne */
 .texte__frise:nth-of-type(even)::before {
-    left: 0;
-    transform: translateX(-50%);
+    left: -25px;
+    /* vers la ligne */
 }

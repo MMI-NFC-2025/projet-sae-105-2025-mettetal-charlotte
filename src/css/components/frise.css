@@ -1,0 +1,66 @@
+.frise-chronologique {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 0 60px;
+}
+
+.frise-events {
+    position: relative;
+    /* référence pour la ligne */
+    padding: 40px 0;
+    /* espace au-dessus des dates */
+}
+
+/* Ligne verticale seulement dans la zone des événements */
+.frise-events::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* s’arrête avant l’article */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: #000;
+}
+
+.texte__frise {
+    position: relative;
+    /* référence pour le point */
+    width: 40%;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 32px 0;
+}
+
+/* texte à gauche */
+.texte__frise:nth-of-type(odd) {
+    text-align: right;
+    margin-right: 55%;
+}
+
+/* texte à droite */
+.texte__frise:nth-of-type(even) {
+    text-align: left;
+    margin-left: 55%;
+}
+
+/* point sur la ligne */
+.texte__frise::before {
+    content: "";
+    position: absolute;
+    top: 0.7em;
+    /* ajuste pour aligner avec la date */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffcf00;
+    left: 100%;
+    transform: translateX(50%);
+}
+
+/* quand le texte est à droite, on inverse le côté du point */
+.texte__frise:nth-of-type(even)::before {
+    left: 0;
+    transform: translateX(-50%);
+}

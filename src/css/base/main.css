@@ -53,6 +53,11 @@ h2{
     text-decoration: none;
     color: var(--jaune-or-);
 }
+.menu__link {
+    text-decoration: none;
+    color: var(--noir);
+    font-family: var(--texte-h2);
+}
 
 .frise-chronologique {
     position: relative;

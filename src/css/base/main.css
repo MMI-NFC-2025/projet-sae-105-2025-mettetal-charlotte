@@ -93,6 +93,11 @@ button {
     border-radius: 10px;
 }
 
+.texte__bouton-decouvrir{
+    text-decoration: none;
+    color: var(--noir);
+}
+
 .boutton__envoyer {
     margin: 30px;
     padding: 10px 20px;

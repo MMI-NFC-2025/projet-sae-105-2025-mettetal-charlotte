@@ -68,8 +68,6 @@ h2{
 
 button {
     display: flex;
-    width: 40%;
-    height: 100%;
     appearance: none;
     border: none;
     background: var(--jaune-or-);
@@ -80,6 +78,31 @@ button {
 }
 
 .button__container {
+    display: flex;
+    justify-content: center;
+    /* centre horizontalement */
+    align-items: center;
+}
+
+.button__decouvrir{
+    margin: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.boutton__envoyer {
+    margin: 30px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.texte__formulaire{
     display: flex;
     align-items: center;
     justify-content: center;

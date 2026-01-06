@@ -89,6 +89,13 @@ button {
     margin: 20px;
 }
 
+.image__revue{
+    margin: 3px;
+}
+
+.carre__formulaire{
+    margin: 20px;
+}
 .u-list-unstyled{
     list-style: none;
     padding: 2;

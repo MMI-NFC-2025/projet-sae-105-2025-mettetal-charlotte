@@ -42,7 +42,7 @@ h2{
 
 .exerbe {
     color: var(--jaune-foncé-);
-    font-family: Times New Roman;
+    font-family: var(--texte-h3)
 }
 
 .sous-titre {

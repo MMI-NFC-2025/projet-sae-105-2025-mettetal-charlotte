@@ -85,6 +85,10 @@ button {
     justify-content: center;
 }
 
+.image__livre{
+    margin: 20px;
+}
+
 .u-list-unstyled{
     list-style: none;
     padding: 2;

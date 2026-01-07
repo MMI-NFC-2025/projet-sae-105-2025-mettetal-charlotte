@@ -68,6 +68,12 @@ h2{
     text-decoration: none;
     color: var(--jaune-or-);
 }
+
+.projet__link{
+    color: var(--noir-);
+    margin: 5px;
+}
+
 .menu__link {
     text-decoration: none;
     color: var(--noir);

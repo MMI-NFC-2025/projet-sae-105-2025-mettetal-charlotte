@@ -42,7 +42,8 @@ h2{
 
 .exerbe {
     color: var(--jaune-foncé-);
-    font-family: var(--texte-h3)
+    font-family: var(--texte-h3);
+    font-size: 20px   
 }
 
 .sous-titre {
@@ -56,6 +57,12 @@ h2{
     font-family: Tahoma;
 }
 
+.titre__header{
+    font-family: var(--texte-texte-4);
+    font-size: 25px;
+    color: var(--noir-);
+    text-align: center;
+}
 .lien_glossaire {
     text-decoration: none;
     color: var(--jaune-or-);
@@ -93,9 +100,9 @@ button {
     border-radius: 10px;
 }
 
-.texte__bouton-decouvrir{
+.boutton__link{
     text-decoration: none;
-    color: var(--noir);
+    color: var(--noir-);
 }
 
 .boutton__envoyer {

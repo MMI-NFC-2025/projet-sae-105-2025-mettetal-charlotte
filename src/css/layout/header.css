@@ -26,11 +26,10 @@
 }
 
 .header__link p {
-    margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
-    font-weight: 700;
-    font-size: 20px;
-    color: #000;
+    font-family: var(--texte-texte-4);
+    font-size: 25px;
+    color: var(--noir-);
+    text-align: center;
 }
 
 .header__traduction {

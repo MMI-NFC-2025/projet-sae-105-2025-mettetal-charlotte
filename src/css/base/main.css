@@ -57,7 +57,8 @@ h2{
     font-family: Tahoma;
 }
 
-.titre__header{
+.header__titre{
+    text-decoration: none;
     font-family: var(--texte-texte-4);
     font-size: 25px;
     color: var(--noir-);
